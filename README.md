@@ -21,7 +21,7 @@ yarn storybook
 
 > `--builder webpack5`，由于当前版本的 `Next.js` 是基于 `webpack5` 构建的，所以在安装 Storybook 的时候要指定 webpack 版本。
 
-### 三、配置全局样式
+### 三、给 Storybook 配置全局样式
 
 ```base
 // .storybook/preview.js
@@ -40,7 +40,7 @@ export const parameters = {
 
 ```
 
-### 四、配置图片加载
+### 四、给 Storybook 配置图片加载
 
 ```base
 // .storybook/preview.js 在 Storybook 中为 Next.js Images 使用未优化的 prop
@@ -83,7 +83,7 @@ export const parameters = {
 ### 五、Storybook 与 [Mock Service Worker](https://mswjs.io/) 集成
 
 
-### 六、安装 antd 主题
+### 六、给 Storybook 安装 antd 主题
 
 ```base
 yarn add antd
