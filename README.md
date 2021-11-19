@@ -82,6 +82,16 @@ export const parameters = {
 
 ### 五、Storybook 与 [Mock Service Worker](https://mswjs.io/) 集成
 
+```base
+yarn add msw --dev
+
+
+// 与浏览器整合
+npx msw init public/ --save
+```
+
+> [msw 与 浏览器整合](https://mswjs.io/docs/getting-started/integrate/browser)
+
 
 ### 六、给 Storybook 安装 antd 主题
 
