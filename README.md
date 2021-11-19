@@ -104,4 +104,7 @@ export const parameters = {
 };
 ```
 
+> [Storybook 插件可直观地自定义蚂蚁设计主题](https://storybook.js.org/addons/storybook-addon-customize-antd-theme/)
+
+
 > [Next.js with Storybook](https://www.youtube.com/watch?v=i5tvZ9f7gJw)
