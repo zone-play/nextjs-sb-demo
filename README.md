@@ -1,7 +1,7 @@
 # nextjs-sb-demo
 next.js + storybook + antd 构建的 React 应用模板
 
-### 创建 Next.js 应用
+### 一、创建 Next.js 应用
 
 ```base
 npx create-next-app my-app
@@ -11,7 +11,7 @@ cd my-app
 yarn dev
 ```
 
-### 安装 Storybook
+### 二、安装 Storybook
 
 ```base
 npx sb init --builder webpack5
@@ -21,7 +21,7 @@ yarn storybook
 
 > `--builder webpack5`，由于当前版本的 `Next.js` 是基于 `webpack5` 构建的，所以在安装 Storybook 的时候要指定 webpack 版本。
 
-### 配置全局样式
+### 三、配置全局样式
 
 ```base
 // .storybook/preview.js
@@ -40,7 +40,7 @@ export const parameters = {
 
 ```
 
-### 配置图片加载
+### 四、配置图片加载
 
 ```base
 // .storybook/preview.js 在 Storybook 中为 Next.js Images 使用未优化的 prop
@@ -80,10 +80,10 @@ export const parameters = {
 
 > [Use the Next.js Image Component in Storybook](https://dev.to/jonasmerlin/how-to-use-the-next-js-image-component-in-storybook-1415)
 
-### Storybook 与 [Mock Service Worker](https://mswjs.io/) 集成
+### 五、Storybook 与 [Mock Service Worker](https://mswjs.io/) 集成
 
 
-### 安装 antd 主题
+### 六、安装 antd 主题
 
 ```base
 yarn add antd
