@@ -43,7 +43,7 @@ export const parameters = {
 ### 配置图片加载
 
 ```base
-// .storybook/preview.js
+// .storybook/preview.js 在 Storybook 中为 Next.js Images 使用未优化的 prop
 
 + import * as NextImage from "next/image";
 
@@ -61,7 +61,7 @@ export const parameters = {
 ```
 
 ```base
-// package.json
+// package.json 在 Storybook 中提供公共目录
 
 {
   ...
@@ -79,6 +79,8 @@ export const parameters = {
 ```
 
 > [Use the Next.js Image Component in Storybook](https://dev.to/jonasmerlin/how-to-use-the-next-js-image-component-in-storybook-1415)
+
+### Storybook 与 [Mock Service Worker](https://mswjs.io/) 集成
 
 
 ### 安装 antd 主题
@@ -107,4 +109,6 @@ export const parameters = {
 > [Storybook 插件可直观地自定义蚂蚁设计主题](https://storybook.js.org/addons/storybook-addon-customize-antd-theme/)
 
 
-> [Next.js with Storybook](https://www.youtube.com/watch?v=i5tvZ9f7gJw)
+> [Next.js with Storybook 视频](https://www.youtube.com/watch?v=i5tvZ9f7gJw)
+
+> [Next.js with Storybook 文档](https://storybook.js.org/blog/get-started-with-storybook-and-next-js/)
