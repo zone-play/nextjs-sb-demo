@@ -80,7 +80,7 @@ export const parameters = {
 
 > [Use the Next.js Image Component in Storybook](https://dev.to/jonasmerlin/how-to-use-the-next-js-image-component-in-storybook-1415)
 
-### 五、Storybook 与 [Mock Service Worker](https://mswjs.io/) 集成
+### 五、Storybook 与 [Mock Service Worker](https://mswjs.io/) 集成（方便调用本地的mock数据）
 
 ```base
 yarn add msw --dev
