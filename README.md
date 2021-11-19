@@ -112,3 +112,5 @@ export const parameters = {
 > [Next.js with Storybook 视频](https://www.youtube.com/watch?v=i5tvZ9f7gJw)
 
 > [Next.js with Storybook 文档](https://storybook.js.org/blog/get-started-with-storybook-and-next-js/)
+
+> [Next.js with Storybook 源码](https://github.com/storybookjs/nextjs-example)
